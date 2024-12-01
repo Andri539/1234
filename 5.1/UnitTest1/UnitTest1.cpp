@@ -1,22 +1,26 @@
-#include <iostream>
+#include "pch.h"
+#include <CppUnitTest.h>
 #include <cmath>
-#include <cassert>
-using namespace std;
 
-double function(double y) {
-    double t = 1 + pow(y, 2) / 2 - pow(y, 3) / 3;
-    return (1 + pow(t, 2) * (1 - pow(y, 2)) - 2 * t) / (5 - pow(t, 2) * (1 + y));
-}
+using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-void testFunction() {
-    double y = 1.0;
-    double expected = -0.585366;
-    double result = function(y);
-    assert(abs(result - expected) < 0.0001);
-    cout << "Test passed!" << endl;
-}
+namespace UnitTest1
+{
+    TEST_CLASS(UnitTest1)
+    {
+    public:
 
-int main() {
-    testFunction();
-    return 0;
+        TEST_METHOD(TestFunction)
+        {
+            double y = 1.0;
+            double expected = -0.585366;
+            double result = function(y);
+            Assert::AreEqual(expected, result, 0.0001);
+        }
+    };
+
+    double function(double y) {
+        double t = 1 + pow(y, 2) / 2 - pow(y, 3) / 3;
+        return (1 + pow(t, 2) * (1 - pow(y, 2)) - 2 * t) / (5 - pow(t, 2) * (1 + y));
+    }
 }

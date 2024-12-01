@@ -1,3 +1,4 @@
-﻿  pch.cpp
-  UnitTest1.cpp
-C:\Users\apres\OneDrive\Desktop\5.1\UnitTest1\UnitTest1.cpp(23,1): error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+﻿  UnitTest1.cpp
+C:\Users\apres\OneDrive\Desktop\5.1\UnitTest1\UnitTest1.cpp(17,29): error C3861: 'function': identifier not found
+  (compiling source file '/UnitTest1.cpp')
+  
