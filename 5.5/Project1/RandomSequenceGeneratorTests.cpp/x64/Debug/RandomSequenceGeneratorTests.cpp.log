@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  RandomSequenceGeneratorTests.cpp.cpp
+C:\Users\apres\OneDrive\Desktop\5.5\Project1\Project1\Source.cpp(32,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file '/RandomSequenceGeneratorTests.cpp.cpp')
+  
+     Creating library C:\Users\apres\OneDrive\Desktop\5.5\Project1\x64\Debug\RandomSequenceGeneratorTests.cpp.lib and object C:\Users\apres\OneDrive\Desktop\5.5\Project1\x64\Debug\RandomSequenceGeneratorTests.cpp.exp
+  RandomSequenceGeneratorTests.cpp.vcxproj -> C:\Users\apres\OneDrive\Desktop\5.5\Project1\x64\Debug\RandomSequenceGeneratorTests.cpp.dll
